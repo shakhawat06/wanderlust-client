@@ -10,7 +10,8 @@ const josefinSans = Josefin_Sans({
 
 export const metadata: Metadata = {
   title: "Wanderlast",
-  description: "Discover your next adventure — explore breathtaking destinations and create unforgettable memories.",
+  description:
+    "Discover your next adventure — explore breathtaking destinations and create unforgettable memories.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
@@ -24,7 +25,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <Navbar />
         {children}
         <Footer />
-        </body>
+      </body>
     </html>
   );
 }
