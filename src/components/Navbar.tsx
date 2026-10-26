@@ -18,7 +18,7 @@ export default function Navbar() {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background">
-      <nav className="relative mx-auto flex h-14 w-full max-w-[1440px] items-center justify-between px-4 md:px-8">
+      <nav className="relative mx-auto flex h-14 w-full max-w-[1440] items-center justify-between px-4 md:px-8">
         {/* Left: main nav links */}
         <ul className="flex items-center gap-4 text-[15px] font-semibold md:gap-7">
           {navLinks.map((link) => {
