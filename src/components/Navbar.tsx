@@ -8,6 +8,7 @@ import { cn } from "cn";
 
 const navLinks = [
   { label: "Home", href: "/" },
+  { label: "Add Destination", href: "/add-destination" },
   { label: "Destinations", href: "/destinations" },
   { label: "My Bookings", href: "/my-bookings" },
   { label: "Admin", href: "/admin" },
@@ -50,7 +51,7 @@ export default function Navbar() {
             alt="Wanderlast"
             width={140}
             height={22}
-            className="h-5 w-auto md:h-[22px]"
+            className="h-5 w-auto md:h-[22]"
             priority
           />
         </Link>
